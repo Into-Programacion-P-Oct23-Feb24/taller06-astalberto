@@ -28,22 +28,22 @@ public class Problema02 {
         switch (tipo) {
 
             case ("1"):
-                valorP = (0.01 * valorV) + 2;
+                valorP = (0.01 * valorV)/100 + 2;
                 tipo = "Vehículo liviano particular";
                 break;
 
             case ("2"):
-                valorP = (0.02 * valorV) + 2.5;
+                valorP = (0.02 * valorV)/100 + 2.5;
                 tipo = "Vehículo grande particular";
                 break;
 
             case ("3"):
-                valorP = (0.04 * valorV) + 1.5;
+                valorP = (0.04 * valorV)/100 + 1.5;
                 tipo = "Taxi";
                 break;
 
             case ("4"):
-                valorP = (0.05 * valorV) + 2.2;
+                valorP = (0.05 * valorV)/100 + 2.2;
                 tipo = "Bus urbano";
                 break;
 
